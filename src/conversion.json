@@ -1,0 +1,570 @@
+{
+        "enerc": {
+            "name":"Energy",
+            "unit":"KJ"
+        },
+        "water":  {
+            "name":"Moisture",
+            "unit":"g"
+        },
+        "ash": {
+            "name":"ash",
+            "unit":"g"
+        },
+        "vit": 0.00436758,
+        "vit_e": 0.00032157,
+        "fatce": {
+            "name":"total fat",
+            "unit":"g"
+        },
+        "cholc": 0,
+        "cholc_e": 0,
+        "fibtg": {
+            "name":"total fibre",
+            "unit":"g"
+        },
+        "choavldf":{
+            "name":"carbohydrate",
+            "unit":"g"
+        },
+        "protcnt":  {
+            "name":"protein",
+            "unit":"g"
+        },
+        "amiac": 10.224361,
+        "amiac_e": 0.829745,
+        "cartoid": {
+            "name":"total cartenoids",
+            "unit":"micro g"
+        },
+        "polyph": 0.01398,
+        "polyph_e": 0.00254,
+        "phystr": 0.04358,
+        "phystr_e": 0.00292,
+        "tocph": 0.00027,
+        "tocph_e": 0.0001,
+        "toctr": 0.00006,
+        "toctr_e": 0.00003,
+        "orgac": 0.06295,
+        "orgac_e": 0.01313,
+        "phytac": 0.632,
+        "phytac_e": 0.0159,
+        "sapon": 0,
+        "sapon_e": 0,
+        "mnrleq": 0.78398,
+        "mnrleq_e": 0.09516,
+        "mnrlet": 0.01051812,
+        "mnrlet_e": 0.00149747,
+        "mnrlpet": 0.000002,
+        "mnrlpet_e": 0.000001,
+        "mnrlnet": 0.001547,
+        "mnrlnet_e": 0.000534,
+        "mnrltx": 0,
+        "mnrltx_e": 0,
+        "vita": 0.00000267,
+        "vita_e": 0.00000129,
+        "vitb": 0.00408998,
+        "vitb_e": 0.00022804,
+        "vitc": {
+            "name":"total ascorbic acid (VitC)",
+            "unit":"mg"
+        },
+        "vitd": 0.00001343,
+        "vitd_e": 0.00000177,
+        "vite": {
+            "name":"alpha tocopherol equivalent(VitE)",
+            "unit":"mg"
+        },
+        "vitk": 0.0000015,
+        "vitk_e": 4.7e-7,
+        "fasat": 0.206,
+        "fasat_e": 0.0082,
+        "fauns": 0.891,
+        "fauns_e": 0.0267,
+        "faess": 0.74193,
+        "faess_e": 0.02104,
+        "facis": 0.89093,
+        "facis_e": 0.02854,
+        "fatrn": 0,
+        "fatrn_e": 0,
+        "fams": 0.149,
+        "fams_e": 0.0075,
+        "fapu": 0.742,
+        "fapu_e": 0.0192,
+        "facn3": 0.04493,
+        "facn3_e": 0.00164,
+        "facn6": 0.697,
+        "facn6_e": 0.0194,
+        "facn9": 0.149,
+        "facn9_e": 0.0075,
+        "facn5": 0,
+        "facn5_e": 0,
+        "facn7": 0,
+        "facn7_e": 0,
+        "fibins": {
+            "name":"total fibre (insoluble)",
+            "unit":"g"
+        },
+        "fibsol":{
+            "name":"total fibre (soluble)",
+            "unit":"g"
+        },
+        "cho":{
+            "name":"total available CHO",
+            "unit":"g"
+        },
+        "starch":{
+            "name":"total starch",
+            "unit":"g"
+        },
+        "olsac": 0.51,
+        "olsac_e": 0.105,
+        "fsugar": 1.8,
+        "fsugar_e": 0.06,
+        "amiace": 3.211166,
+        "amiace_e": 0.228312,
+        "amiacce": 2.438499,
+        "amiacce_e": 0.195545,
+        "amiacne": 4.574696,
+        "amiacne_e": 0.405888,
+        "retol":{
+            "name":"retinol",
+            "unit":"micro g"
+        },
+        "thia": {
+            "name":"Thiamine (B1)",
+            "unit":"mg"
+        },
+        "ribf":{
+            "name":"riboflavin (B2)",
+            "unit":"mg"
+        },
+        "nia": {
+            "name":"niacin (B3)",
+            "unit":"mg"
+        },
+        "pantac":{
+            "name":"pantothenic acid (B5)",
+            "unit":"mg"
+        },
+        "vitb6c": {
+            "name":"total B6",
+            "unit":"mg"
+        },
+        "biot": {
+            "name":"biotin (B7)",
+            "unit":"micro g"
+        },
+        "folsum":{
+            "name":"total folates (B9)",
+            "unit":"micro g"
+        },
+        "ergcal": {
+            "name":"ergocalciferol",
+            "unit":"micro g"
+        },
+        "chocal":{
+            "name":"cholecalciferol (D3)",
+            "unit":"micro g"
+        },
+        "doh25": 0,
+        "doh25_e": 0,
+        "tocpha":{
+            "name":"tocopherols (alpha)",
+            "unit":"mg"
+        },
+        "tocphb": {
+            "name":"tocopherols (beta)",
+            "unit":"mg"
+        },
+        "tocphg":{
+            "name":"tocopherols (gamma)",
+            "unit":"mg"
+        },
+        "tocphd":{
+            "name":"tocopherols (delta)",
+            "unit":"mg"
+        },
+        "toctra":{
+            "name":"tocotrienols (alpha)",
+            "unit":"mg"
+        },
+        "toctrb": {
+            "name":"tocotrienols (beta)",
+            "unit":"mg"
+        },
+        "toctrg": {
+            "name":"tocotrienols (gamma)",
+            "unit":"mg"
+        },
+        "toctrd": {
+            "name":"tocotrienols (delta)",
+            "unit":"mg"
+        },
+        "vitk1": {
+            "name":"phylloquinones (VitK1)",
+            "unit":"micro g"
+        },
+        "vitk2": 0,
+        "vitk2_e": 0,
+        "lutn":{
+            "name":"lutein",
+            "unit":"micro g"
+        },
+        "zea":{
+            "name":"zeaxanthin",
+            "unit":"micro g"
+        },
+        "lycpn": {
+            "name":"lycopene",
+            "unit":"micro g"
+        },
+        "crypxb":{
+            "name":"beta-cryptoxanthin",
+            "unit":"micro g"
+        },
+        "cartg":{
+            "name":"gamma-caotene",
+            "unit":"micro g"
+        },
+        "carta": {
+            "name":"alpha carotene",
+            "unit":"micro g"
+        },
+        "cartb": {
+            "name":"beta carotene",
+            "unit":"micro g"
+        },
+        "al": {
+            "name":"aluminium",
+            "unit":"mg"
+        },
+        "as": {
+            "name":"arsenic",
+            "unit":"micro g"
+        },
+        "cd":{
+            "name":"cadmium",
+            "unit":"mg"
+        },
+        "ca": {
+            "name":"calcium",
+            "unit":"mg"
+        },
+        "cr":{
+            "name":"chromium",
+            "unit":"mg"
+        },
+        "co": {
+            "name":"cobalt",
+            "unit":"mg"
+        },
+        "cu":{
+            "name":"copper",
+            "unit":"mg"
+        },
+        "fe":{
+            "name":"iron",
+            "unit":"mg"
+        },
+        "pb": {
+            "name":"lead",
+            "unit":"mg"
+        },
+        "li":{
+            "name":"lithium",
+            "unit":"mg"
+        },
+        "mg": {
+            "name":"magnesium",
+            "unit":"mg"
+        },
+        "mn": {
+            "name":"manganese",
+            "unit":"mg"
+        },
+        "hg": {
+            "name":"mercury",
+            "unit":"micro g"
+        },
+        "mo":{
+            "name":"molebdenum",
+            "unit":"mg"
+        },
+        "ni": {
+            "name":"nickle",
+            "unit":"mg"
+        },
+        "p": {
+            "name":"phosphorus",
+            "unit":"mg"
+        },
+        "k":{
+            "name":"potassium",
+            "unit":"mg"
+        },
+        "se":{
+            "name":"selenium",
+            "unit":"micro g"
+        },
+        "na":{
+            "name":"sodium",
+            "unit":"mg"
+        },
+        "zn":{
+            "name":"zinc",
+            "unit":"mg"
+        },
+        "frus": {
+            "name":"fructose",
+            "unit":"g"
+        },
+        "glus":{
+            "name":"glucose",
+            "unit":"g"
+        },
+        "sucs":{
+            "name":"sucrose",
+            "unit":"g"
+        },
+        "mals": {
+            "name":"maltose",
+            "unit":"g"
+        },
+        "lactose": 0,
+        "lactose_e": 0,
+        "f4d0": 0,
+        "f4d0_e": 0,
+        "f6d0": 0,
+        "f6d0_e": 0,
+        "f8d0": 0,
+        "f8d0_e": 0,
+        "f10d0": {
+            "name":"capric(C10:0)",
+            "unit":"mg"
+        },
+        "f12d0": {
+            "name":"lauric(C12:0)",
+            "unit":"mg"
+        },
+        "f14d0": {
+            "name":"myristic(C14:0)",
+            "unit":"mg"
+        },
+        "f16d0":  {
+            "name":"palmitic(C16:0)",
+            "unit":"mg"
+        },
+        "f18d0": {
+            "name":"stearic(C18:0)",
+            "unit":"mg"
+        },
+        "f20d0":  {
+            "name":"arachidic(C20:0)",
+            "unit":"mg"
+        },
+        "f22d0":  {
+            "name":"behenic(C22:0)",
+            "unit":"mg"
+        },
+        "f24d0": {
+            "name":"lignoceric(C24:0)",
+            "unit":"mg"
+        },
+        "f14d1cn5": {
+            "name":"myristoleic(C14:1)",
+            "unit":"mg"
+        },
+        "f16d1cn7": {
+            "name":"palmitoleic(C16:1)",
+            "unit":"mg"
+        },
+        "f18d1cn9": {
+            "name":"oleic(C18:1n9)",
+            "unit":"mg"
+        },
+        "f18d1tn9": 0,
+        "f18d1tn9_e": 0,
+        "f20d1cn9":  {
+            "name":"eicosenoic(C20:1n9)",
+            "unit":"mg"
+        },
+        "f22d1cn9": {
+            "name":"eicosenoic(C20:1n9)",
+            "unit":"mg"
+        },
+        "f24d1cn9": 0,
+        "f24d1cn9_e": 0,
+        "f18d2cn6": 0.697,
+        "f18d2cn6_e": 0.0194,
+        "f20d2n6": 0,
+        "f20d2n6_e": 0,
+        "f18d3n3": 0.04493,
+        "f18d3n3_e": 0.00164,
+        "f20d4n6": 0,
+        "f20d4n6_e": 0,
+        "f11d0": 0,
+        "f11d0_e": 0,
+        "f15d0": 0,
+        "f15d0_e": 0,
+        "f20d3n6": 0,
+        "f20d3n6_e": 0,
+        "f20d5n3": 0,
+        "f20d5n3_e": 0,
+        "f22d6n3": 0,
+        "f22d6n3_e": 0,
+        "f22d2n6": 0,
+        "f22d2n6_e": 0,
+        "f22d5n3": 0,
+        "f22d5n3_e": 0,
+        "his": 0.270592,
+        "his_e": 0.026425,
+        "ile": 0.399546,
+        "ile_e": 0.022197,
+        "leu": 0.647941,
+        "leu_e": 0.050736,
+        "lys": 0.255794,
+        "lys_e": 0.023254,
+        "met": 0.187089,
+        "met_e": 0.008456,
+        "cys": 0.236768,
+        "cys_e": 0.019026,
+        "phe": 0.531671,
+        "phe_e": 0.014798,
+        "thr": 0.272706,
+        "thr_e": 0.014798,
+        "trp": 0.104643,
+        "trp_e": 0.016912,
+        "val": 0.541184,
+        "val_e": 0.050736,
+        "ala": 0.410116,
+        "ala_e": 0.117327,
+        "arg": 0.49679,
+        "arg_e": 0.022197,
+        "asp": 0.534842,
+        "asp_e": 0.016912,
+        "glu": 3.129777,
+        "glu_e": 0.219856,
+        "gly": 0.397432,
+        "gly_e": 0.059192,
+        "pro": 1.085539,
+        "pro_e": 0.088788,
+        "ser": 0.499961,
+        "ser_e": 0.051793,
+        "tyr": 0.22197,
+        "tyr_e": 0.006342,
+        "oxalt": 0.05238,
+        "oxalt_e": 0.01071,
+        "oxals": 0.0262,
+        "oxals_e": 0.00199,
+        "oxali": 0.02418,
+        "oxali_e": 0.00135,
+        "caconac": 0,
+        "caconac_e": 0,
+        "citac": 0,
+        "citac_e": 0,
+        "fumac": 0.0015,
+        "fumac_e": 0.00013,
+        "malac": 0.00002,
+        "malac_e": 0.00001,
+        "quinac": 0.00649,
+        "quinac_e": 0.00198,
+        "sucac": 0.00115,
+        "sucac_e": 0.00012,
+        "tarac": 0.00141,
+        "tarac_e": 0.00018,
+        "dhbenzac34": 0.00068,
+        "dhbenzac34_e": 0.00019,
+        "hbenzal3": 0,
+        "hbenzal3_e": 0,
+        "pcathac": 0.00062,
+        "pcathac_e": 0.00011,
+        "vanlac": 0.00026,
+        "vanlac_e": 0.00008,
+        "gallac": 0.00279,
+        "gallac_e": 0.00037,
+        "cinmac": 0,
+        "cinmac_e": 0,
+        "coumaco": 0,
+        "coumaco_e": 0,
+        "coumacp": 0.00038,
+        "coumacp_e": 0.00009,
+        "caffac": 0.00078,
+        "caffac_e": 0.00007,
+        "chlrac": 0.00071,
+        "chlrac_e": 0.00013,
+        "ferac": 0.00014,
+        "ferac_e": 0.00001,
+        "apigen": 0,
+        "apigen_e": 0,
+        "apigen6cgls": 0.00031,
+        "apigen6cgls_e": 0.00008,
+        "apigen7onshps": 0,
+        "apigen7onshps_e": 0,
+        "luteol": 0,
+        "luteol_e": 0,
+        "kaemf": 0,
+        "kaemf_e": 0,
+        "querce": 0,
+        "querce_e": 0,
+        "querce3bdgls": 0,
+        "querce3bdgls_e": 0,
+        "querce3ortns": 0,
+        "querce3ortns_e": 0,
+        "querce3bgls": 0,
+        "querce3bgls_e": 0,
+        "isormt": 0,
+        "isormt_e": 0,
+        "myrct": 0,
+        "myrct_e": 0,
+        "rsvrtol": 0,
+        "rsvrtol_e": 0,
+        "hespt": 0,
+        "hespt_e": 0,
+        "narng": 0,
+        "narng_e": 0,
+        "hespd": 0,
+        "hespd_e": 0,
+        "daidzn": 0,
+        "daidzn_e": 0,
+        "gnstein": 0,
+        "gnstein_e": 0,
+        "epicatec": 0,
+        "epicatec_e": 0,
+        "epicategc": 0,
+        "epicategc_e": 0,
+        "epicatgc3gal": 0,
+        "epicatgc3gal_e": 0,
+        "catec": 0,
+        "catec_e": 0,
+        "galcatecgal": 0,
+        "galcatecgal_e": 0,
+        "galcatec": 0,
+        "galcatec_e": 0,
+        "syrgac": 0.00004,
+        "syrgac_e": 0.00001,
+        "sinpac": 0.00013,
+        "sinpac_e": 0.00002,
+        "ellgac": 0,
+        "ellgac_e": 0,
+        "rafs": 0.47,
+        "rafs_e": 0.1,
+        "stas": 0.04,
+        "stas_e": 0.005,
+        "vers": 0,
+        "vers_e": 0,
+        "ajgs": 0,
+        "ajgs_e": 0,
+        "camt": 0.00621,
+        "camt_e": 0.0002,
+        "stgstr": 0.00077,
+        "stgstr_e": 0.00003,
+        "stostrb": 0.0366,
+        "stostrb_e": 0.00269,
+        "carot": 0.00000267,
+        "carot_e": 0.00000129,
+        "xantp": 0.00004343,
+        "xantp_e": 0.00001196,
+        "cartbeq": 0.00000267,
+        "cartbeq_e": 0.00000129
+    }
