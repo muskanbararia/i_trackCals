@@ -11,14 +11,18 @@
             "name":"ash",
             "unit":"g"
         },
-        "vit": 0.00436758,
-        "vit_e": 0.00032157,
+        "vit":{
+            "name":"vitamins",
+            "unit":"NA"
+        },
         "fatce": {
             "name":"total fat",
             "unit":"g"
         },
-        "cholc": 0,
-        "cholc_e": 0,
+        "cholc": {
+            "name":"Cholesterol",
+            "unit":"mg"
+        },
         "fibtg": {
             "name":"total fibre",
             "unit":"g"
@@ -31,76 +35,86 @@
             "name":"protein",
             "unit":"g"
         },
-        "amiac": 10.224361,
-        "amiac_e": 0.829745,
+        "amiac": {
+            "name":"Amino acids",
+            "unit":"NA"
+        },
         "cartoid": {
             "name":"total cartenoids",
             "unit":"micro g"
         },
-        "polyph": 0.01398,
-        "polyph_e": 0.00254,
-        "phystr": 0.04358,
-        "phystr_e": 0.00292,
-        "tocph": 0.00027,
-        "tocph_e": 0.0001,
-        "toctr": 0.00006,
-        "toctr_e": 0.00003,
-        "orgac": 0.06295,
-        "orgac_e": 0.01313,
-        "phytac": 0.632,
-        "phytac_e": 0.0159,
-        "sapon": 0,
-        "sapon_e": 0,
-        "mnrleq": 0.78398,
-        "mnrleq_e": 0.09516,
-        "mnrlet": 0.01051812,
-        "mnrlet_e": 0.00149747,
-        "mnrlpet": 0.000002,
-        "mnrlpet_e": 0.000001,
-        "mnrlnet": 0.001547,
-        "mnrlnet_e": 0.000534,
-        "mnrltx": 0,
-        "mnrltx_e": 0,
-        "vita": 0.00000267,
-        "vita_e": 0.00000129,
-        "vitb": 0.00408998,
-        "vitb_e": 0.00022804,
+        "polyph":{
+            "name":"Polyphenols",
+            "unit":"mg"
+        },
+        "phystr":{
+            "name":"Phytosterols",
+            "unit":"mg"
+        },
+        "tocph": {
+            "name":"Tocopherols",
+            "unit":"mg"
+        },
+        "toctr": {
+            "name":"Tocotrienols",
+            "unit":"mg"
+        },
+        "orgac": {
+            "name":"Organic acids",
+            "unit":"mg"
+        },
+        "phytac":  {
+            "name":"phytate",
+            "unit":"mg"
+        },
+        "sapon": {
+            "name":"Saponins",
+            "unit":"g"
+        },
+        "vita": {
+            "name":"Vitamin A",
+            "unit":"mg"
+        },
+        "vitb": {
+            "name":"Vitamin B",
+            "unit":"mg"
+        },
         "vitc": {
             "name":"total ascorbic acid (VitC)",
             "unit":"mg"
         },
-        "vitd": 0.00001343,
-        "vitd_e": 0.00000177,
+        "vitd":{
+            "name":"Vitamin D",
+            "unit":"mg"
+        },
         "vite": {
             "name":"alpha tocopherol equivalent(VitE)",
             "unit":"mg"
         },
-        "vitk": 0.0000015,
-        "vitk_e": 4.7e-7,
-        "fasat": 0.206,
-        "fasat_e": 0.0082,
-        "fauns": 0.891,
-        "fauns_e": 0.0267,
-        "faess": 0.74193,
-        "faess_e": 0.02104,
-        "facis": 0.89093,
-        "facis_e": 0.02854,
-        "fatrn": 0,
-        "fatrn_e": 0,
-        "fams": 0.149,
-        "fams_e": 0.0075,
-        "fapu": 0.742,
-        "fapu_e": 0.0192,
-        "facn3": 0.04493,
-        "facn3_e": 0.00164,
-        "facn6": 0.697,
-        "facn6_e": 0.0194,
-        "facn9": 0.149,
-        "facn9_e": 0.0075,
-        "facn5": 0,
-        "facn5_e": 0,
-        "facn7": 0,
-        "facn7_e": 0,
+        "vitk":{
+            "name":"Vitamin K",
+            "unit":"mg"
+        },
+        "fasat":{
+            "name":"Saturated Fatty acids",
+            "unit":"mg"
+        },
+        "fauns": {
+            "name":"Unsaturated Fatty acids",
+            "unit":"mg"
+        },
+        "faess": {
+            "name":"Essential Fatty acids",
+            "unit":"mg"
+        },
+        "fams": {
+            "name":"Monounsaturated Fatty acids",
+            "unit":"mg"
+        },
+        "fapu": {
+            "name":"Polyunsaturated Fatty acids",
+            "unit":"mg"
+        },
         "fibins": {
             "name":"total fibre (insoluble)",
             "unit":"g"
@@ -117,16 +131,14 @@
             "name":"total starch",
             "unit":"g"
         },
-        "olsac": 0.51,
-        "olsac_e": 0.105,
-        "fsugar": 1.8,
-        "fsugar_e": 0.06,
-        "amiace": 3.211166,
-        "amiace_e": 0.228312,
-        "amiacce": 2.438499,
-        "amiacce_e": 0.195545,
-        "amiacne": 4.574696,
-        "amiacne_e": 0.405888,
+        "olsac": {
+            "name":"Oligosaccharides",
+            "unit":"g"
+        },
+        "fsugar": {
+            "name":"Free sugars",
+            "unit":"g"
+        },
         "retol":{
             "name":"retinol",
             "unit":"micro g"
@@ -167,8 +179,10 @@
             "name":"cholecalciferol (D3)",
             "unit":"micro g"
         },
-        "doh25": 0,
-        "doh25_e": 0,
+        "doh25":{
+            "name":"25-OH-D3",
+            "unit":"micro g"
+        },
         "tocpha":{
             "name":"tocopherols (alpha)",
             "unit":"mg"
@@ -205,8 +219,10 @@
             "name":"phylloquinones (VitK1)",
             "unit":"micro g"
         },
-        "vitk2": 0,
-        "vitk2_e": 0,
+        "vitk2": {
+            "name":"Menaquinones",
+            "unit":"micro g"
+        },
         "lutn":{
             "name":"lutein",
             "unit":"micro g"
@@ -331,14 +347,22 @@
             "name":"maltose",
             "unit":"g"
         },
-        "lactose": 0,
-        "lactose_e": 0,
-        "f4d0": 0,
-        "f4d0_e": 0,
-        "f6d0": 0,
-        "f6d0_e": 0,
-        "f8d0": 0,
-        "f8d0_e": 0,
+        "lactose": {
+            "name":"lactose",
+            "unit":"g"
+        },
+        "f4d0": {
+            "name":"Butyric acid (C4:0)",
+            "unit":"%"
+        },
+        "f6d0":{
+            "name":"Caproic acid (C6:0)",
+            "unit":"%"
+        },
+        "f8d0": {
+            "name":"caprylic acid (C8:0)",
+            "unit":"%"
+        },
         "f10d0": {
             "name":"capric(C10:0)",
             "unit":"mg"
@@ -393,178 +417,340 @@
             "name":"eicosenoic(C20:1n9)",
             "unit":"mg"
         },
-        "f24d1cn9": 0,
-        "f24d1cn9_e": 0,
-        "f18d2cn6": 0.697,
-        "f18d2cn6_e": 0.0194,
-        "f20d2n6": 0,
-        "f20d2n6_e": 0,
-        "f18d3n3": 0.04493,
-        "f18d3n3_e": 0.00164,
-        "f20d4n6": 0,
-        "f20d4n6_e": 0,
-        "f11d0": 0,
-        "f11d0_e": 0,
-        "f15d0": 0,
-        "f15d0_e": 0,
-        "f20d3n6": 0,
-        "f20d3n6_e": 0,
-        "f20d5n3": 0,
-        "f20d5n3_e": 0,
-        "f22d6n3": 0,
-        "f22d6n3_e": 0,
-        "f22d2n6": 0,
-        "f22d2n6_e": 0,
-        "f22d5n3": 0,
-        "f22d5n3_e": 0,
-        "his": 0.270592,
-        "his_e": 0.026425,
-        "ile": 0.399546,
-        "ile_e": 0.022197,
-        "leu": 0.647941,
-        "leu_e": 0.050736,
-        "lys": 0.255794,
-        "lys_e": 0.023254,
-        "met": 0.187089,
-        "met_e": 0.008456,
-        "cys": 0.236768,
-        "cys_e": 0.019026,
-        "phe": 0.531671,
-        "phe_e": 0.014798,
-        "thr": 0.272706,
-        "thr_e": 0.014798,
-        "trp": 0.104643,
-        "trp_e": 0.016912,
-        "val": 0.541184,
-        "val_e": 0.050736,
-        "ala": 0.410116,
-        "ala_e": 0.117327,
-        "arg": 0.49679,
-        "arg_e": 0.022197,
-        "asp": 0.534842,
-        "asp_e": 0.016912,
-        "glu": 3.129777,
-        "glu_e": 0.219856,
-        "gly": 0.397432,
-        "gly_e": 0.059192,
-        "pro": 1.085539,
-        "pro_e": 0.088788,
-        "ser": 0.499961,
-        "ser_e": 0.051793,
-        "tyr": 0.22197,
-        "tyr_e": 0.006342,
-        "oxalt": 0.05238,
-        "oxalt_e": 0.01071,
-        "oxals": 0.0262,
-        "oxals_e": 0.00199,
-        "oxali": 0.02418,
-        "oxali_e": 0.00135,
-        "caconac": 0,
-        "caconac_e": 0,
-        "citac": 0,
-        "citac_e": 0,
-        "fumac": 0.0015,
-        "fumac_e": 0.00013,
-        "malac": 0.00002,
-        "malac_e": 0.00001,
-        "quinac": 0.00649,
-        "quinac_e": 0.00198,
-        "sucac": 0.00115,
-        "sucac_e": 0.00012,
-        "tarac": 0.00141,
-        "tarac_e": 0.00018,
-        "dhbenzac34": 0.00068,
-        "dhbenzac34_e": 0.00019,
-        "hbenzal3": 0,
-        "hbenzal3_e": 0,
-        "pcathac": 0.00062,
-        "pcathac_e": 0.00011,
-        "vanlac": 0.00026,
-        "vanlac_e": 0.00008,
-        "gallac": 0.00279,
-        "gallac_e": 0.00037,
-        "cinmac": 0,
-        "cinmac_e": 0,
-        "coumaco": 0,
-        "coumaco_e": 0,
-        "coumacp": 0.00038,
-        "coumacp_e": 0.00009,
-        "caffac": 0.00078,
-        "caffac_e": 0.00007,
-        "chlrac": 0.00071,
-        "chlrac_e": 0.00013,
-        "ferac": 0.00014,
-        "ferac_e": 0.00001,
-        "apigen": 0,
-        "apigen_e": 0,
-        "apigen6cgls": 0.00031,
-        "apigen6cgls_e": 0.00008,
-        "apigen7onshps": 0,
-        "apigen7onshps_e": 0,
-        "luteol": 0,
-        "luteol_e": 0,
-        "kaemf": 0,
-        "kaemf_e": 0,
-        "querce": 0,
-        "querce_e": 0,
-        "querce3bdgls": 0,
-        "querce3bdgls_e": 0,
-        "querce3ortns": 0,
-        "querce3ortns_e": 0,
-        "querce3bgls": 0,
-        "querce3bgls_e": 0,
-        "isormt": 0,
-        "isormt_e": 0,
-        "myrct": 0,
-        "myrct_e": 0,
-        "rsvrtol": 0,
-        "rsvrtol_e": 0,
-        "hespt": 0,
-        "hespt_e": 0,
-        "narng": 0,
-        "narng_e": 0,
-        "hespd": 0,
-        "hespd_e": 0,
-        "daidzn": 0,
-        "daidzn_e": 0,
-        "gnstein": 0,
-        "gnstein_e": 0,
-        "epicatec": 0,
-        "epicatec_e": 0,
-        "epicategc": 0,
-        "epicategc_e": 0,
-        "epicatgc3gal": 0,
-        "epicatgc3gal_e": 0,
-        "catec": 0,
-        "catec_e": 0,
-        "galcatecgal": 0,
-        "galcatecgal_e": 0,
-        "galcatec": 0,
-        "galcatec_e": 0,
-        "syrgac": 0.00004,
-        "syrgac_e": 0.00001,
-        "sinpac": 0.00013,
-        "sinpac_e": 0.00002,
-        "ellgac": 0,
-        "ellgac_e": 0,
-        "rafs": 0.47,
-        "rafs_e": 0.1,
-        "stas": 0.04,
-        "stas_e": 0.005,
-        "vers": 0,
-        "vers_e": 0,
-        "ajgs": 0,
-        "ajgs_e": 0,
-        "camt": 0.00621,
-        "camt_e": 0.0002,
-        "stgstr": 0.00077,
-        "stgstr_e": 0.00003,
-        "stostrb": 0.0366,
-        "stostrb_e": 0.00269,
-        "carot": 0.00000267,
-        "carot_e": 0.00000129,
-        "xantp": 0.00004343,
-        "xantp_e": 0.00001196,
-        "cartbeq": 0.00000267,
-        "cartbeq_e": 0.00000129
+        "f24d1cn9": {
+            "name":"Nervonic acid (C24:1n9)",
+            "unit":"mg"
+        },
+        "f18d2cn6": {
+            "name":"Linoleic acid (C18:2n6)",
+            "unit":"mg"
+        },
+        "f20d2n6": {
+            "name":"Eicosadienoic acid (C20:2)",
+            "unit":"mg"
+        },
+        "f18d3n3": {
+            "name":"α-Linolenic acid (C18:3n3)",
+            "unit":"mg"
+        },
+        "f20d4n6": {
+            "name" :"Arachidonic acid (C20:4n6)",
+            "unit":"mg"
+        },
+        "f11d0": {
+            "name" :"Undecanoic acid (C11:0)",
+            "unit":"mg"
+        },
+        "f15d0":{
+            "name" :"Pentadecanoic acid (C15:0)",
+            "unit":"mg"
+        },
+        "f20d3n6":{
+            "name" : "Eicosatrienoic acid (C20:3n6)",
+            "unit":"mg"
+        },
+        "f20d5n3": {
+            "name" : "Eicosapentaenoic acid (C20:5n3)",
+            "unit":"mg"
+        },
+        "f22d6n3": {
+            "name" :  "Docosahexaenoic acid (C22:6n3)",
+            "unit":"mg"
+        },
+        "f22d2n6":  {
+            "name" : "Docosadienoic acid (C22:2)",
+            "unit":"mg"
+        },
+        "f22d5n3": {
+            "name" : "Docosapentaenoic acid (C22:5n3)",
+            "unit":"mg"
+        },
+        "epicategc": {
+            "name":   "(-)-Epigallo catechin",
+            "unit":"mg"
+        },
+        "epicatgc3gal": {
+            "name":   "(-)-Epigallo catechin 3-gallate",
+            "unit":"mg"
+        },
+        "catec":  {
+            "name":  "(+)-Catechin",
+            "unit":"mg"
+        },
+        "galcatecgal": {
+            "name":  "(-)-Gallocatechin gallate",
+            "unit":"mg"
+        },
+        "galcatec":{
+            "name": "(-)-Gallocatechin",
+            "unit":"mg"
+        },
+        "syrgac": {
+            "name":"Syringic acid",
+            "unit":"mg"
+        },
+        "sinpac": {
+            "name":"Sinapinic acid",
+            "unit":"mg"
+        },
+        "ellgac":{
+            "name":"Ellagic acid",
+            "unit":"mg"
+        },
+        "rafs": {
+            "name":"raffinose",
+            "unit":"g"
+        },
+        "stas": {
+            "name":"stachyose",
+            "unit":"g"
+        },
+        "vers": {
+            "name":"verbascose",
+            "unit":"g"
+        },
+        "ajgs":  {
+            "name":"ajugose",
+            "unit":"g"
+        },
+        "camt": {
+            "name":"campesterol",
+            "unit":"mg"
+        },
+        "stgstr": {
+            "name":"stigmasterol",
+            "unit":"mg"
+        },
+        "stostrb":{
+            "name":"β-Sitosterol",
+            "unit":"micro g"
+        },
+        "carot":  {
+            "name":"Carotenes",
+            "unit":"micro g"
+        },
+        "xantp":  {
+            "name":"Xanthophylls",
+            "unit":"micro g"
+        },
+        "cartbeq": {
+            "name":"β-Carotene equivalents",
+            "unit":"micro g"
+        },
+        "his":{
+            "name":"Histidine",
+            "unit":"g"
+        },
+        "ile": {
+            "name":"isoleucine",
+            "unit":"g"
+        },
+        "leu": {
+            "name":"leucine",
+            "unit":"g"
+        },
+        "lys":{
+            "name":"lysine",
+            "unit":"g"
+        },
+        "met": {
+            "name":"methionine",
+            "unit":"g"
+        },
+        "cys": {
+            "name":"cystine",
+            "unit":"g"
+        },
+        "phe": {
+            "name":"phenylalanine",
+            "unit":"g"
+        },
+        "thr":{
+            "name":"theonine",
+            "unit":"g"
+        },
+        "trp": {
+            "name":"tryptophan",
+            "unit":"g"
+        },
+        "val": {
+            "name":"valine",
+            "unit":"g"
+        },
+        "ala":{
+            "name":"alanine",
+            "unit":"g"
+        },
+        "arg": {
+            "name":"arginine",
+            "unit":"g"
+        },
+        "asp": {
+            "name":"aspartic acid",
+            "unit":"g"
+        },
+        "glu": {
+            "name":"glutamic acid",
+            "unit":"g"
+        },
+        "gly":{
+            "name":"glycine",
+            "unit":"g"
+        },
+        "pro": {
+            "name":"proline",
+            "unit":"g"
+        },
+        "ser": {
+            "name":"serine",
+            "unit":"g"
+        },
+        "tyr": {
+            "name":"tyrosine",
+            "unit":"g"
+        },
+        "caconac": {
+            "name":"cis-aconitic acid",
+            "unit":"mg"
+        },
+        "citac": {
+            "name":"citric acid",
+            "unit":"mg"
+        },
+        "fumac": {
+            "name":"fumaric acid",
+            "unit":"mg"
+        },
+        "malac": {
+            "name":"mallic acid",
+            "unit":"mg"
+        },
+        "quinac": {
+            "name":"quinic acid",
+            "unit":"mg"
+        },
+        "sucac":  {
+            "name":"succinic acid",
+            "unit":"mg"
+        },
+        "tarac":  {
+            "name":"tartaric acid",
+            "unit":"mg"
+        },
+        "dhbenzac34":  {
+            "name":"3,4-Dihydroxy Benzoic acid",
+            "unit":"mg"
+        },
+        "hbenzal3": {
+            "name":"3-Hydroxy Benzaldehyde",
+            "unit":"mg"
+        },
+        "pcathac": {
+            "name": "Protocatechuic acid",
+            "unit":"mg"
+        },
+        "vanlac": {
+            "name": "vanillic acid",
+            "unit":"mg"
+        },
+        "gallac":  {
+            "name": "gallic acid",
+            "unit":"mg"
+        },
+        "cinmac":  {
+            "name": "cinnamic acid",
+            "unit":"mg"
+        },
+        "coumaco": {
+            "name": "O-coumaric acid",
+            "unit":"mg"
+        },
+        "coumacp": {
+            "name": "P-Coumaric acid",
+            "unit":"mg"
+        },
+        "caffac":  {
+            "name": "caffeic acid",
+            "unit":"mg"
+        },
+        "chlrac": {
+            "name": "chlorogenic acid",
+            "unit":"mg"
+        },
+        "ferac": {
+            "name": "ferulic acid",
+            "unit":"mg"
+        },
+        "apigen":  {
+            "name": "apigenin",
+            "unit":"mg"
+        },
+        "apigen6cgls": {
+            "name": "apigenin 6 C gluoside",
+            "unit":"mg"
+        },
+        "apigen7onshps":  {
+            "name": "apigenin 7 O neohesperidoside",
+            "unit":"mg"
+        },
+        "luteol": {
+            "name": "luteolin",
+            "unit":"mg"
+        },
+        "kaemf":  {
+            "name": "kaempferol",
+            "unit":"mg"
+        },
+        "querce": {
+            "name": "quercetin",
+            "unit":"mg"
+        },
+        "querce3bdgls":  {
+            "name": "Quercetin-3-β-D-glucoside",
+            "unit":"mg"
+        },
+        "querce3ortns": {
+            "name": "Quercetin-3-O-rutinoside",
+            "unit":"mg"
+        },
+        "querce3bgls":  {
+            "name": "Quercetin-3-β-galactoside",
+            "unit":"mg"
+        },
+        "isormt": {
+            "name": "isorhamnetin",
+            "unit":"mg"
+        },
+        "myrct":{
+            "name": "myricetin",
+            "unit":"mg"
+        },
+        "rsvrtol":{
+            "name": "resveratrol",
+            "unit":"mg"
+        },
+        "hespt":{
+            "name": "hesperetin",
+            "unit":"mg"
+        },
+        "narng": {
+            "name": "naringenin",
+            "unit":"mg"
+        },
+        "hespd":{
+            "name": "hesperedin",
+            "unit":"mg"
+        },
+        "daidzn":{
+            "name": "daidzein",
+            "unit":"mg"
+        },
+        "gnstein": {
+            "name": "genistein",
+            "unit":"mg"
+        },
+        "epicatec": {
+            "name": "(-)-Epicatechin",
+            "unit":"mg"
+        }
     }
